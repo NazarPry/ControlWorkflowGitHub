@@ -8,7 +8,7 @@
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1736439204164,
+  "startTime": 1736439572702,
   "success": true,
   "testResults": [
     {
@@ -21,7 +21,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 35,
+          "duration": 32,
           "failureMessages": []
         },
         {
@@ -32,12 +32,12 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 55,
+          "duration": 45,
           "failureMessages": []
         }
       ],
-      "startTime": 1736439205322,
-      "endTime": 1736439205412,
+      "startTime": 1736439573883,
+      "endTime": 1736439573960,
       "status": "passed",
       "message": "",
       "name": "C:/Course/ControlWorkflowGitHub/src/components/MainContent.test.jsx"
