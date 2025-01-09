@@ -2,7 +2,7 @@ name: Website Deployment
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   lint:
     runs-on: ubuntu-22.04
@@ -41,7 +41,7 @@ jobs:
           path: test.json
   build:
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Get code
         uses: actions/checkout@v3
@@ -63,7 +63,7 @@ jobs:
           path: dist
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Get build artifacts
         uses: actions/download-artifact@v3
