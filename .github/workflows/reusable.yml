@@ -1,5 +1,5 @@
 name: Reusable Deploy
-on: worlflow_call
+on: workflow_call
 jobs:
   deploy:
     runs-on: ubuntu-22.04
