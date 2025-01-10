@@ -8,7 +8,7 @@ on:
         default: dist
         type: string
 jobs:
-  deploy2:
+  deploy:
     runs-on: ubuntu-22.04
     steps: 
       - name : Get code
@@ -19,3 +19,8 @@ jobs:
         run: ls
       - name: Output information
         run: echo "Deploying $ uploading..."
+  info: 
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Output smth
+        run: echo "Smth"
